@@ -1,0 +1,57 @@
+.header{
+    background-color: #fdebd0;
+    height: 70px;
+    text-align: center;
+}
+.menu-ngang{
+    background: #2e4053;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+}
+.side-bar{
+    background-color: #8e44ad;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+.slider{
+    background-color: #f4d03f;
+    height: 200px;
+    text-align: center;
+    
+}
+.sp1,.sp2{
+    background-color: aqua;
+    height: 200px;
+    width: 480px;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+}
+.sp{
+    display: flex;
+    flex: 3;
+}
+.noidung{
+    flex:3
+}
+.f{
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+}
+.f1{
+    background-color: #7dcea0;
+    flex-grow: 1;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.mm{
+    background-color: #7dcea0;
+}
